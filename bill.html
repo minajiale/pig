@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+  <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/yygbase.css">
+	<title>交易账单</title>
+  <style type="text/css">
+    body{
+      width: 100%;
+    }
+    .head{
+      background: url("./images/head_02.jpg");
+    }
+    table tr{
+      height: 4.85em;
+      border-bottom: 1px solid #CCCBCB;
+    }
+    table tr>td:nth-child(1){
+      font-size: 1.165em;
+      text-align: left;
+      font-weight: 600;
+      color: #605F5F !important;
+      padding-left: 1.35em;
+    }
+    table tr>td:nth-child(2){
+      text-align: right;
+      padding-right: 1.35em;
+    }
+    table a,table span{
+      color: #D0A758 !important;
+    }
+    #req_fre img{
+      width: 60%;
+    }
+  </style>
+</head>
+<body>
+  <div class="head">
+    <header>
+      <a onclick="window.history.back()">&nbsp;&nbsp;<i class="fa fa-angle-left fa-2x"></i></a>
+     <h1>交易账单</h1>
+     </header>
+   </div>
+  <div>
+      <table style="width: 100%;">
+        <tr>
+          <td>累计充值<span> 5,200,500.00 </span>元</td>
+          <td><a href="">点击详细</a></td>
+        </tr>
+        <tr>
+          <td>累计投资<span> 520,500.00 </span>元</td>
+          <td><a href="">点击详细</a></td>
+        </tr>
+        <tr>
+          <td>累计收益<span> 12,521.00 </span>元</td>
+          <td><a href="">点击详细</a></td>
+        </tr>
+        <tr>
+          <td>累计提现<span> 50,000.00 </span>元</td>
+          <td><a href="">点击详细</a></td>
+        </tr>
+      </table>
+      <div style="width: 100%;margin-top: 3.55em;text-align: center;">
+        <div id="req_fre">
+          <div><img src="./images/bill_03.png"></div>
+          <div><a href=""><img src="./images/bill_05.png"></a></div>
+        </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/basic.js"></script>
+</body>
+</html>
