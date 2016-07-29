@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/FAQ.css">
+
+  <title>常见问题</title>
+</head>
+<body>
+  <div class="head">
+  <header>
+    <a href="">  <i class="fa fa-angle-left fa-2x"></i></a>
+   <h1>常见问题</h1>
+   </header>
+ </div>
+ <div class="contain">
+ <div class="item">
+   <a href=" " class="item-active accountitem">账户管理</a>
+   <a href="" class="investmentitem">投资问题</a>
+   <a href="" class="rechargeitem">充值提现</a>
+   <a href="" class="borrowitem">借款问题</a>
+ </div>
+
+<ol class="account">
+  <li>小猪理财是什么平台？</li>
+  <li>从什么时候开始运营？</li>
+  <li>小猪理财是否有银行存管？</li>
+  <li>当账户密码被盗，会不会有资金安全风险？</li>
+  <li>小猪理财投资人资金安全是否有担保机构进行担保</li>
+</ol>
+
+<ol class="investment">
+  <li>小猪理财是什么平台？</li>
+  <li>从什么时候开始运营？</li>
+  <li>小猪理财是否有银行存管？</li>
+  <li>当账户密码被盗，会不会有资金安全风险？</li>
+  <li>小猪理财投资人资金安全是否有担保机构进行担保</li>
+</ol>
+
+<ol class="recharge">
+  <li>小猪理财是什么平台？</li>
+  <li>从什么时候开始运营？</li>
+  <li>小猪理财是否有银行存管？</li>
+  <li>当账户密码被盗，会不会有资金安全风险？</li>
+  <li>小猪理财投资人资金安全是否有担保机构进行担保</li>
+</ol>
+
+<ol class="borrow">
+  <li>小猪理财是什么平台？</li>
+  <li>从什么时候开始运营？</li>
+  <li>小猪理财是否有银行存管？</li>
+  <li>当账户密码被盗，会不会有资金安全风险？</li>
+  <li>小猪理财投资人资金安全是否有担保机构进行担保</li>
+</ol>
+</div>
+</body>
+
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/basic.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+  $(document).ready(function(){
+    $(".item").find('a').on("click",function(){
+      $(".item").find(".item-active").removeClass("item-active");
+      $(this).addClass("item-active");
+      if ($(this).is(".investmentitem")) {
+        $(".account , .recharge,.borrow").css('display', 'none');
+        $(".investment").css('display', 'block');
+        alert("cdwxs");
+      }else if ($(this).is(".accountitem")) {
+        alert("dsx");
+        $(".investment,.recharge,.borrow").css('display', 'none');
+        $(".account").css('display', 'block');
+      }else if ($(this).is(".rechargeitem")) {
+        $(".account , .investment, .borrow").css('display', 'none');
+        $(".recharge").css('display', 'block');
+      }else if ($(this).is('borrowitem')) {
+        $(".investment , .account , .recharge").css('display' , 'none');
+        $(".borrow").css('display','block');
+      }
+    });
+  });
+});
+
+</script>
+
+
+</html>
