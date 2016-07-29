@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+  <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/yygbase.css">
+  <link rel="stylesheet" type="text/css" href="./css/yyg_sight.css">
+	<title>理财计算器</title>
+  <style type="text/css">
+
+  </style>
+</head>
+<body>
+  <div class="head">
+    <header>
+      <a onclick="window.history.back()">&nbsp;&nbsp;<i class="fa fa-angle-left fa-2x"></i></a>
+     <h1>理财计算器</h1>
+     </header>
+   </div>
+
+   <div>
+     <form>
+       <table style="width: 100%;">
+         <tr>
+           <td>投资金额</td>
+           <td><input type="text" name="sum" placeholder="输入投资金额"></td>
+         </tr>
+         <tr>
+           <td>年化利率</td>
+           <td><input type="text" name="rate" placeholder="输入投资利率"></td>
+         </tr>
+         <tr>
+           <td>投资期限</td>
+           <td><input type="text" name="deadline" placeholder="输入投资期限"></td>
+         </tr>
+         <tr>
+           <td>限期类型</td>
+           <td class="mold" style="color: #A5A5A5 !important;">
+             <div class="checkr"><input type="radio" name="mold" value="">
+             </div><label>天</label>
+             <div class="checkr"><input type="radio" name="mold" value="">
+             </div><label>月</label>
+           </td>
+         </tr>
+         <tr>
+           <td>还款方式</td>
+           <td><a href="" style="color: #A3A3A3;"><label>每月还息到期还本</label>&nbsp;&nbsp;&nbsp;
+            <span class="fa fa-angle-down" style=" color:#DCAF68;font-size: 1.575em;"></span></a>
+           </td>
+         </tr>
+       </table>
+       <div id="count">
+         <button type="submit">
+           <img src="./images/calculator_13.png">
+         </button>
+       </div>
+     </form>
+   </div>
+
+  <div id="res">
+     <label>收益合计&nbsp;<span class="active-color" style="font-size:1.25em;">1250.25</span>&nbsp;元</label>
+   </div>
+   <div id="notice" class="font75">
+     <p>
+       计算收益的公式：本金*（年化利率/12）*投资期限
+     </p>
+   </div>
+
+  <div id="keyboard">
+    <div><img src="./images/calculator_16.png"></div>
+  </div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/basic.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $(document).ready(function(){
+      checkr();
+      $('input[name="mold"]').on('click',function(){
+          checkr();
+      });
+      $('input[type="text"]').on('focus',function(){
+        $('#keyboard').css('display','block');
+      });
+      $('input[type="text"]').on('blur',function(){
+       // alert(2);
+        $('#keyboard').css('display','none');
+      });
+
+    });
+  })
+
+  function checkr(){//alert();
+    if($('.mold input[name="mold"]').length) {
+      $('.mold input[name="mold"]').each(function(){//alert();
+        $(this).parent('div').removeClass('check_on');
+      });
+      $('.mold input:checked').each(function(){
+        $(this).parent('div').addClass('check_on');
+      });
+    };
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/base.css">
+
+  <style media="screen">
+    .blow ,.above{
+      background-color: white;
+      font-size: 1em;
+    }
+    .blow div ,.above div{
+ border-bottom: 1px solid #d4d4d4;
+ height: 2.6em;
+ line-height: 2.6em;
+ padding-left: 1.5em;
+ display: flex;
+ justify-content: flex-start;
+    }
+    .last{
+      border-bottom: none!important;
+    }
+    span{
+      margin-right: 2em;
+      display: block;
+      width: 5em;
+    }
+    input{
+      border: none;
+font-size: 1em;
+    }
+    .mid{
+      margin: auto;
+      text-align: center;
+      color: #878787;
+      height: 3em;
+      line-height: 3em;
+      display: flex;
+      justify-content: center;
+      font-size: 0.885em
+    }
+    .images{
+      width: 0.9em;height: 0.9em;
+      margin-right: 0.2em;
+    }
+    img{
+      width: 100%;height: 100%;
+    }
+    .bottom {
+      text-align: center;
+      margin-top: 2.5em;
+    }
+    .bottom p{
+      font-size: 0.86em;
+      color: #878787;
+      text-align: center;
+      margin-top: 0.9em;
+    }
+    .content i{
+      color: #949494;
+    }
+    .img{
+      height: 0.7em!important;
+      width: 1.2em;
+      border-bottom: none!important;
+      margin-top: 1.1em;
+    }
+  </style>
+
+
+  <!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+
+  <title>绑定快捷支付</title>
+</head>
+<body>
+<div class="head">
+  <header>
+    <a href="">  <i class="fa fa-angle-left fa-2x"></i></a>
+   <h1>添加银行卡</h1>
+   <a href="">查看限额</a>
+   </header>
+</div>
+<div class="content">
+<div class="above">
+ <div><span>姓名</span><input type="text" value="张**" onfocus="if(value='张**'){value=''}" onblur="if(value=''){value='张**'}"></div>
+ <div><span>身份证号</span><input type="text" value="3642*********0011" onfocus="if(value='3642*********0011'){value=''}" onblur="if(value=''){value='3642*********0011'}"></div>
+  <div class="last"><span>手机号码</span><input type="text" value="187****6352" onfocus="if(value='187****6352'){value=''}" onblur="if(value=''){value='187****6352'}"></div>
+</div>
+
+<div class="mid">
+  <div class="images"><img src="./images/binding.gif" alt="" /></div>
+  <p>只能绑定汇付实名认证用户本人的银行卡</p>
+</div>
+<div class="blow">
+    <div><span>银行卡号</span><input type="text" value="请输入银行卡号" onfocus="if(value='请输入银行卡号'){value=''}" onblur="if(value=''){value='请输入银行卡号'}"></div>
+    <div><span>所属银行</span><input type="text" value="请选择银行" onfocus="if(value='请选择银行'){value=''}" onblur="if(value=''){value='请选择银行'}"></div>
+<div><span>选择开户地</span><input type="text" value="请选择银行开户地" onfocus="if(value='请选择银行开户地'){value=''}" onblur="if(value=''){value='请选择银行开户地'}">
+    <div class="img"><img src="./images/angle-down.jpg" alt="" /></div>
+    <!-- <i ></i> -->
+  </div>
+    <div class="last"><span>选择开户市</span><input type="text" value="请选择银行开户市" onfocus="if(value='请选择银行开户市'){value=''}" onblur="if(value=''){value='请选择银行开户市'}">
+  <div class="img"><img src="./images/angle-down.jpg" alt="" /></div></div>
+
+</div>
+
+</div >
+<div class="bottom">
+<button type="button" name="button">绑定快捷支付</button>
+<p>账号交易资金安全由阳光保险承担</p>
+</div>
+</body>
+
+
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/basic.js"></script>
+</html>
