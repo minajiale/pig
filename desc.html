@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+  <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/yyg_desc.css">
+	<title>优惠券</title>
+
+<style type="text/css">
+	.head{
+		background: url("./images/head_02.jpg");
+	}
+</style>
+</head>
+<body>
+	<div class="head">
+	  <header>
+	    <a onclick="window.history.back()">&nbsp;&nbsp;<i class="fa fa-angle-left fa-2x"></i></a>
+	   <h1>优惠券</h1>
+	   </header>
+	 </div>
+	 <div class="cate-menu">
+	 	<div class="item-active"><a id="all-list">全部</a></div>
+	 	<span></span>
+	 	<div><a id="useable-list">未使用</a></div>
+	 	<span></span>
+	 	<div><a id="disable-list">已失效</a></div>
+	 </div>
+	<div class="main-body">
+		<!--item模板-->
+		<div class="item enable-item">
+			<div class="item-desc">
+				<div>
+					<span>￥</span>
+					<span class="mn-font">50</span>
+				</div>
+				<div class="list-desc">
+					<div class="av-date"><span>有效期</span></div>
+					<div style="line-height: 0.65em;"><time>2016-4-21至</time>
+					<time>2016-6-31</time>
+					</div>
+					<div>
+						<span style="font-size:1.45em;">投资抵扣券</span>
+					</div>
+				</div>
+			</div>
+			<div class="item-action">
+				<a href="">立即使用</a>
+			</div>
+			<div class="item-condition">
+				<em>单笔投资50,000元抵扣</em>
+			</div>
+		</div>
+		<div class="item enable-item">
+			<div class="item-desc">
+				<div>
+					<span>%&nbsp;</span>
+					<span class="mn-font">0.5</span>
+				</div>
+				<div class="list-desc">
+					<div class="av-date"><span>有效期</span></div>
+					<div style="line-height: 0.65em;"><time>2016-04-21至</time>
+					<time>2016-06-31</time>
+					</div>
+					<div>
+						<span style="font-size:1.45em;">加息券</span>
+					</div>
+				</div>
+			</div>
+			<div class="item-action">
+				<a href="">立即使用</a>
+			</div>
+			<div class="item-condition">
+				<em>单笔投资50,000元抵扣</em>
+			</div>
+		</div>
+		<div class="item disable-item">
+			<div class="item-desc">
+				<div>
+					<span>%&nbsp;</span>
+					<span class="mn-font">0.5</span>
+				</div>
+				<div class="list-desc">
+					<div class="av-date"><span>有效期</span></div>
+					<div style="line-height: 0.65em;"><time>2016-04-21至</time>
+				<time>2016-06-31</time>
+					</div>
+					<div>
+						<span style="font-size:1.45em;">加息券</span>
+					</div>
+				</div>
+			</div>
+			<div class="item-action">
+				<a href="">已过期</a>
+			</div>
+			<div class="item-condition">
+				<em>单笔投资50,000元抵扣</em>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/basic.js"></script>
+<script type="text/javascript" src="./js/yyg_desc.js"></script>
+</body>
+</html>
