@@ -1,0 +1,77 @@
+.images{
+  width: 2.25em;
+  height: 2.25em;
+}
+.content{
+  /*必须要给width才能居中起作用*/
+  margin:0 auto; text-align: center;
+  width: 22em;
+  margin-top: 9.5em;
+  font-size: 0.9em;
+  background-color: white;
+}
+
+body{
+  background-image: url(../images/order1.jpg);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+span{
+  background-image: url(../images/top.gif);
+  background-size: 100% 100%;
+  color: white;  font-size: 0.9em;
+  width: 1.85em;
+  height: 2em;
+  line-height: 2em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.oneline{
+  display: flex;
+  justify-content:space-around;
+  width: 22em;
+}
+/*不明白为什么p的宽度设置的越大。它反而向里面走*/
+p{
+  width: 12em;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+p:nth-child(1){
+    width: 2em;
+}
+/*p:nth-child(2){
+    width: 4em;
+}*/
+p:nth-child(3){
+  color: #ecaa1f;
+}
+.th p{
+  color: black;
+  height: 2.955em;
+  line-height: 2.955em!important;
+}
+.th p:nth-child(1){
+  color:  #ecaa1f;
+}
+ p:nth-child(1){
+   width: 5em;
+ }
+ p:nth-child(2){
+  width: 8em;
+}
+.th{
+  border-bottom: 1px solid #f1b942;
+  margin-bottom: .75em;
+}
+button{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width:10em;
+  margin-top: 1em;
+
+}

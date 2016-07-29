@@ -1,0 +1,17 @@
+.choose{
+  background-color: white;
+
+}
+.choose> div{
+    border-bottom: 1px solid #dcdbdb;
+      height: 2.85em;
+      line-height: 2.85em;
+      padding-left: 2em;
+      padding-right: 2em;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.15em;
+}
+.choose i{
+  color: #969696;
+}

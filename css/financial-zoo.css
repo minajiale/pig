@@ -1,0 +1,117 @@
+
+.ad{
+  background-image: url(../images/find.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 0.5em;
+  padding-left: 3em;
+  font-size: 0.9em;
+  height: 3.5em; width: 24em;
+}
+
+.ad a{
+  color: #ca9060;
+  border: 1px solid #ca9060;
+  margin-left: 1.5em;
+font-size: 0.87em;
+display: inline-block;
+padding: 0 0.7em;
+}
+.little{
+  font-size: 0.8em;
+  margin-top: 0.6em;
+}
+.onepart{
+  background-color: white;
+  margin-top: 0.5em;
+  padding-top: 0.6em;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+.mid-top{
+  margin-left: 1em;
+}
+h2{
+  color: #cc9236;
+  font-size: 0.85em;
+}
+.img{
+  height:1em;
+  width: 1em;
+  margin-left: 0.2em;
+}
+.imge{
+    height:1em;
+    width: 3em;
+}
+.mid{
+  border-bottom: 1px solid #ebebeb;
+  margin: 1em 0em;
+  padding-bottom:0.3em;
+  font-size: 0.86em;
+  /*当给父元素设置字体大小，子元素的大小也会变化，可见子元素的字体大小并不是直接覆盖父元素的字体大小，而是相对于父元素*/
+
+}
+.mid-left{
+  margin-top: 0.5em;
+}
+.mid-left span:nth-child(1){
+  margin-left: 1.5em;
+}
+.mid-left span:nth-child(2){
+  font-size: 3.5em;
+  color:#e7b662;
+  margin:0em 0.1em;
+}
+.mid-left span:nth-child(3) {
+color:#e7b662;
+
+}
+.mid-right p:nth-child(1) span, .mid-right p:nth-child(3) span{
+  color:#e7b662;
+}
+.mid-top , .mid ,.mid-bottom{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+.images{
+height: 4em;
+margin: 0em 2em;
+}
+ img{
+  /*width: 100%;*/
+   height: 100%;
+}
+.onepart a div{
+  border: 1px solid #cc9236;
+  color: #cc9236;
+  width: 9.5em;height: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+.mid-bottom{
+  padding-left: 1em;
+  font-size: 0.86em;
+}
+.mid-bottom p{
+  font-size: 0.7em;
+  color: #929292;
+  width: 16em;
+}
+.footer{
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0em;
+  height: 3.9em;
+  border-top: 1px solid #d8d8d8;
+}
+.footer div {
+  width:3.5em;height: 3.5em;
+padding: 1.25em;
+}

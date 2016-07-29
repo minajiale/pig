@@ -1,0 +1,36 @@
+
+.onepart{
+  padding: 0.5em;
+  /*border-bottom: 1px solid #d6d6d6;*/
+  margin: auto;
+}
+.onepart > p{
+  font-size:1.3em;
+  padding-top: 0.4em;
+}
+.state{
+  padding-top: 0.15em;
+    font-size: 1.3em;
+}
+.state p{
+  color: #cc9a36;
+  display: inline;
+
+}
+.principle{
+  font-size: 0.5em;color: #666565!important;
+  padding-right: 0.4em;
+}
+.state span{
+  color: #75b66a;
+  float: right;
+}
+.data{
+  font-size: 0.8em;
+  margin-top: 1em;margin-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+.data p{
+  display: inline;
+}

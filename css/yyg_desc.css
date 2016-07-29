@@ -1,0 +1,128 @@
+body{
+	background: #fff;
+}
+.head{
+	background: url("../images/head_02.jpg");
+}
+
+.enable-item{
+	background: url("../images/cate_05.png") no-repeat;
+}
+.disable-item{
+	background: url("../images/cate_11.png") no-repeat;
+}
+.cate-menu{
+	display: -wekit-flex;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	height: 2.25em;
+	line-height: 2.215em;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	font-size: 1.25em;
+}
+.cate-menu div{
+	text-align: center;
+	flex:1;
+}
+.cate-menu span{
+	display: inline;
+	margin-top: 0.65em;
+	height: 1.05em;
+	width: 1px;
+	background: url("../images/border.png") center no-repeat;
+}
+.item{
+	overflow: hidden;
+	color: #fff;
+	
+	margin: 1.15em auto;
+	width: 88%;
+	height: 9.85em;
+	/*css3解决兼容*/
+	-moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -moz-border-radius: 0.105em;
+	-webkit-border-radius: 0.105em;
+	-o-border-radius: 0.105em;
+    border-radius: 0.105em;
+}
+.mn-font{
+	font-size: 4.55em;
+	margin-left: -0.135em;
+}
+.item-desc{
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+.item-desc > div:nth-child(1){
+	flex: 1;
+	padding:0em;
+	margin-left: 1.85em !important;
+}
+.item-desc > div:nth-child(2){
+	flex: 1;
+	margin: 0em;
+	padding: 0em;
+	height: 4.55em;
+	padding-top: 0.55em;
+}
+
+.item-desc > div:nth-child(1) > span:nth-child(1){
+	font-size: 2.25em;
+	margin-left:-0.205em;
+}
+.item-action{
+	height: 1.65em;
+	width: 70%;
+	margin: 0em auto 0.105em;
+	background: #fff;
+	color: #D9B66C;
+	text-align: center;
+	-moz-border-radius: 0.105em;
+	-webkit-border-radius: 0.105em;
+	-o-border-radius: 0.105em;
+    border-radius: 0.105em;
+    line-height: 1.605em;
+}
+.item-action a{
+	text-decoration: none;
+	color: #D9B66C;
+	font-size: 1.25em;
+}
+.item-condition{
+	text-align: center;
+	color: #535353;
+}
+.item-condition em{
+	display: inline-block;
+	font-size:9px;
+	-webkit-text-size-adjust: none;
+　　-webkit-transform: scale(0.56,0.56);
+    -o-transform: scale(0.56,0.56);
+}
+.item-active *{
+	color: #D9B66C;
+}
+.main-body{
+	padding-top: 0.625em;
+}
+.list-desc{
+	height: 100%;
+}
+.list-desc>div{
+	height: 33%;
+	line-height: 100%;
+}
+.av-date{
+	margin-top: 0.35em;
+	font-size: 0.985em;
+}
+.list-desc time{
+	font-size: 0.735em;
+}

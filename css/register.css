@@ -1,0 +1,39 @@
+.content{
+  padding: 1.25em; margin:0 auto; letter-spacing: 0.1em;
+}
+
+input{
+ width: 20.4em;height:2.75em;border: #d3d2d2 solid 1px;margin: 0.3em 0 !important;
+ opacity: 0.5;filter: alpha(opacity=0.5);padding-left: 1em!important;font-size: 1em;
+ background-color: #fff;
+}
+.verifacation-code{
+  width: 10.25em;
+}
+input[type="button"]{
+  background-image: url("../images/register-verfication.png");
+  background-size: 100% 100%;padding: 0!important;
+  width:7.95em; height: 2.25em;color: white; opacity: 1; filter: alpha(opacity=1);margin-left: 0.15em !important;
+  font-size: 1.2em;
+}
+
+input[type="checkbox"]{
+  width: 1em;height:1em;
+}
+.register2{
+  padding-top: 1.5em;
+}
+.register2 span{
+  font-size: 0.7em; opacity: 0.5; filter: alpha(opacity=0.5)
+}
+.register2 p{
+  font-size: 0.7em; opacity: 0.5; filter: alpha(opacity=0.5);
+ text-align:center; margin-top: 1em;
+}
+
+select{
+  width: 7.75em; height: 3.1em;
+}
+.text2{
+  margin: 0.9em 0em 0.7em 0em !important;
+}

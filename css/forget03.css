@@ -1,0 +1,34 @@
+.forget03{
+  padding: 3.5em 1.25em 0 1.25em;
+  text-align: center;
+}
+input{
+  width: 23em;height: 2em;padding: 0.5em;
+  border: 1px solid #a6a6a6;
+  margin-bottom: 0.8em;
+}
+.on{
+    border: 1px solid #cfa43f;
+}
+
+.forget04{
+  text-align: center;  margin:1.6em;
+}
+.suceful{
+  color:#cc9a36;font-size: 1.5em;
+}
+.mid{
+  margin-top: 0.85em; margin-bottom: 0.4em;font-size: 0.9em;
+}
+.mid span{
+ color: red;padding-right: 0.4em;
+}
+.mid p{
+color: #9a9a9a;display:inline;
+}
+.forget04 a {
+color:#cc9a36;text-decoration: underline;font-size: 0.85em;
+}
+button{
+  margin-top: 1.5em;
+}

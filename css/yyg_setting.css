@@ -1,0 +1,92 @@
+body{
+  width: 100%;
+}
+.head{
+  background: url("../images/head_02.jpg");
+}
+#list > div{
+  background: #FFF !important;
+}
+/* .list >div>a{
+  width: 100%;
+} */
+.icon{
+  padding-top: 0.805em;
+  padding-right: 0.45em;
+  float: left;
+}
+.icon img{
+  width: 57%;
+}
+table tr{
+  border-bottom: 1px solid #E4E3E3;
+  color: #1C1C1C;
+}
+table td:nth-child(1) span{
+  height: 2.85em;
+  line-height: 2.85em;
+  margin-left: -0.85em;
+}
+table td:nth-child(1){
+  color: #646263 !important;
+  height: 2.85em;
+  font-weight: 600;
+  padding-left: 0.95em;
+}
+table tr td:nth-child(2){
+  line-height: 2.65em;
+  font-size: 1.35em;
+  padding-right: 0.995em;
+  color: #CCCCCC;
+}
+#logo-well{
+  background: url('../images/setting_02.png') no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; 
+}
+#logout{
+  text-align: center;
+  margin-top: 2.35em;
+  margin-bottom: 1.25em;
+}
+#logout img{
+  width: 90%;
+}
+#logo-well{
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+#info{
+  flex:2;
+  color: #EDF9FF;
+  font-size: 1.005em;
+  padding-top:1.65em;
+  padding-left: 0.95em;
+}
+#info img{
+  z-index: 1111;
+  width: 60%;
+}
+#portrait{
+  flex: 1;
+}
+#portrait>div{
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  margin-top: 1.55em;
+  margin-right:0.75em; 
+  height: 4.5em;
+  width: 4.5em;
+}
+ #hp{
+  background:url('../images/setting_23.png') no-repeat;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; 
+} 

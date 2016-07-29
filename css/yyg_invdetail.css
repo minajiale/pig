@@ -1,0 +1,94 @@
+body{
+  width: 100%;
+  background: #EDEDED;
+}
+a{
+  text-decoration: none;
+}
+#tab-invest{
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.175em;
+  font-weight: 500;
+  background: #FFF;
+  border-bottom: 1px solid #D2D2D2;
+}
+#tab-invest > div{
+  flex: 1;
+  padding-top: 0.405em;
+  padding-bottom: 0.405em;
+
+}
+#tab-invest > div a{
+  color: #949494;
+}
+#invest-content table{
+  background: #FFF;
+}
+#invest-content table thead{
+  background: #E0E0E0;
+  font-size: 1.03335em;
+}
+#invest-content table thead th{
+  font-weight: 700;
+  padding-top: 0.65em;
+  padding-bottom: 0.65em;
+}
+#invest-content table tbody{
+  font-size: 0.85em;
+  color: #8A8A8A;
+}
+#invest-content table tbody tr{
+  border-bottom: 1px solid #F2F2F2;
+}
+#invest-content table tbody tr td{
+  text-align: center;
+  padding-bottom: 0.47060005em;
+  padding-top: 0.47060005em;
+}
+#invest-content table tbody tr td div{
+  margin-left: -0.35em;
+  margin-right: -2.35em
+}
+#invest-content table tbody tr td div img{
+  width: 58%;
+}
+#invest-content table tbody tr td:nth-child(2){
+  padding-left: -0.75em;
+}
+#invest-content table tbody tr td:nth-child(3){
+  color: #D2A64E;
+}
+
+
+
+.center{
+  /*display: flex;
+  justify-content: center;
+align-items: flex-end;*/
+position: fixed;
+bottom: 2em;
+  width: 24em;
+  left: 10%;
+}
+.ima{
+  width: 3em;height: 3em;
+  float: left;
+}
+ img{
+  width: 100%;height: 100%;
+}
+.buttom{
+width: 16em;
+height: 3em;
+float: left;
+margin-left: 0.5em;
+
+}
+button{
+  width: 100%;height: 100%;
+  margin-top: -0.01em;
+}

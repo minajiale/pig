@@ -1,0 +1,21 @@
+.content{
+  padding: 1.25em;
+}
+p{
+  opacity: 0.5; filter: alpha(opacity=0.5);font-size: 0.8em;text-align: center;
+}
+form{
+  padding: 1.4em 0em ;
+}
+input[type="text"]{
+  opacity: 0.5; filter: alpha(opacity=0.5);width: 10.35em;height: 2.5em;font-size: 1em; border: 1px solid #a1a1a1;
+  padding-left: 0.5em;
+}
+input[type="button"]{
+  background-image: url(../images/register-verfication.png);color: white;
+  border: none;background-size: 100% 100%; width:7.5em;height: 2.05em;font-size: 1.3em;
+  margin-left: 0.25em;
+}
+button{
+    background-image: url(../images/register-button.jpg);
+}

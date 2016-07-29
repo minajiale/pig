@@ -1,0 +1,36 @@
+/*缺一个样式，当input被电机时，它的父元素出现边框*/
+.in{
+  background-color: #fff;padding: 1.25em 1.25em 0em 1.25em;
+}
+
+input{
+  border: none; margin: 1em;
+}
+.inpt{
+   font-size: 1em;
+}
+.imgaes{
+  width:7.2em;height: 2.4em;float: left;
+}
+img{
+  width:100%;
+}
+.bankright{
+  float: right; font-size: 0.9em;
+}
+.tail{
+  color: #191919!important;float: right;
+}
+.money{
+  color: #d1a14e; width: 15em;
+}
+.limit{
+  color: #a7a7a7;
+}
+a{
+  color: #d1a14e;float: right;font-size: 0.85em;margin: 1em;
+}
+
+button{
+  margin-left: 1.25em;
+}

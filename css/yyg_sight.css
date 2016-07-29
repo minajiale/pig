@@ -1,0 +1,94 @@
+body{
+  padding: 0px;margin: 0px;
+}
+#keyboard{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: none;
+  z-index: 1111;
+}
+#keyboard img{
+  width: 100%;
+}
+#count{
+  text-align: center;
+}
+#count button{
+  width: 90%;
+}
+#count button img{
+  width: 100%;
+}
+table{
+  color: #282828;
+  background: #FFF;
+  font-weight: 600;
+}
+table tr{
+  width: 100%;
+  border-bottom: 1px solid #E7E7E7;
+}
+table tr td{
+  height: 2.75em;
+  line-height: 2.75em;
+}
+table tr td:nth-child(1){
+  padding-right: 0.45em;
+  padding-left: 1.35em;
+}
+table tr td:nth-child(2){
+  padding-right: 0.95em;
+}
+table input[type='text']{
+  border: none;
+  color: #2A2A2A;
+  font-size: 1.05em;
+  outline: none;
+}
+table input[type='radio']{
+  
+}
+.mold>div{
+  float: left;
+  height: 2.75em;
+  width: 2.05em;
+  line-height: 2.75em;
+  overflow: hidden;
+}
+.checkr{
+  background: url('../images/calculator_03.png') no-repeat 0px center;
+  -moz-background-size: 80%;
+  -webkit-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
+}
+.checkr input[name="mold"]{
+  position: relative;
+  width: 10.75em;
+}
+.mold label{
+  float: left;
+  padding-right: 1.55em;
+  color: #B8B8B8;
+}
+.check_on{
+  background: url('../images/calculator_07.png') no-repeat 0px center;
+  -moz-background-size: 80%;
+  -webkit-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
+}
+
+#notice,#res{
+  text-align: center;
+}
+#count{
+  margin-top: 2.45em;
+  margin-bottom: 1.05em;
+}
+#res{
+  font-size: 1.05em;
+  font-weight: 500;
+  margin-bottom: 1.05em;
+}

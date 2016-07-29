@@ -1,0 +1,60 @@
+body{
+  background: white!important;
+  font-family:"微软雅黑",tahoma,verdana,Arial;
+  margin: 0;
+}
+
+
+.hint{
+  background-color: #f5f4f4;
+  height:0.7em;
+  text-align: center;
+  padding: 1em;
+  line-height: 0.7em;
+}
+.hint span{
+  font-size: 0.8em;
+}
+.number{
+  font-size: 1em!important;
+}
+.onepart{
+  padding: 0.6em 1.2em 0.8em 1em;border-bottom: 0.05em solid #d2d2d2;
+}
+ p{
+  font-size: 0.6em;
+}
+.a1{
+  color: #191919 !important;
+}
+.number{
+  color: #cc9a36;
+}
+.content{
+  color: #a7a7a7;
+}
+.mid{
+  margin-top: 0.25em;
+}
+.mid p{
+  font-size: 1.4em;
+}
+.bottm{
+  margin-top: 0.5em;
+}
+.money{
+  color: #cc9a36;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.fail{
+color: #d95656;
+}
+.succeed{
+
+color: #75b66a;
+}

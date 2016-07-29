@@ -1,0 +1,50 @@
+body{
+  font-size: 0.95em;
+}
+.hint{
+  font-size: 0.87em;
+  color: #cc9a36;
+  margin: auto;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cin{
+  background-color: white;
+}
+.margin{
+  margin: 0 1.25em;
+  width: 10em;
+  font-weight: 600;
+}
+.cin div{
+  border-bottom: 1px solid #dadada;
+  height: 3em;
+  line-height: 3em;
+}
+.none{
+  border-bottom: none!important;
+}
+input{
+  height: 3em;width: 12em;
+}
+button{
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.5em;
+}
+p{
+  text-align: center;
+  font-size: 0.87em;
+  color: #a7a7a7;
+  margin-top: 1em;
+}
+select{
+  border: none;
+}
+.images{
+  width: 1em;height: 1em;
+  margin-right: 0.5em;
+}

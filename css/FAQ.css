@@ -1,0 +1,27 @@
+
+.item-active{
+ color:#D9B66C;
+}
+.investment,.recharge,.borrow{
+ display: none;
+}
+a{
+ font-size: 1.2em; margin: 0.3em;
+}
+li{
+ border-bottom: 1px solid #d6d5d5;
+ height: 2.8em;
+ line-height: 2.8em;
+ list-style: decimal inside !important;
+ padding-left: 1em;
+ overflow: hidden;text-overflow: ellipsis; white-space: nowrap;
+}
+ol:nth-child(1){
+  border-top: 1px solid #d6d5d5;
+}
+.item{
+ margin-top: 0.9em;
+ text-align: center;
+ border-bottom: 1px solid #d6d5d5;
+ padding-bottom: 1em;
+}

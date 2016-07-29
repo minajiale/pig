@@ -1,0 +1,101 @@
+a{
+  text-decoration: none;
+}
+body{
+  background-image: url(../images/log_02.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "微软雅黑";
+  letter-spacing: 0.1em;
+}
+.conten{
+position: fixed;
+top: 12em;
+left: 3.5em;
+width: 18em;
+}
+i{
+  color: white; margin: 0.2em;
+}
+.one{
+
+  height: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
+  display:flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /*flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;*/
+  padding: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+input[type="text"]{
+    border: none;
+    background-color: rgba(255,255,255,0);/* IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+    color: white;opacity: 0.5;
+
+    margin-left:0.2em;
+    font-size: 1.1em;
+    outline: 0;
+}
+img{
+  font-size: 1em;width: 1.1em;
+}
+.choose{
+  border: none; font-size: 0.55em;
+}
+.choose a{
+  position: absolute; right: 0;
+}
+/*因为用到了绝对定位，所以要加上一个参照定位。*/
+.check{
+    min-height: 24px;
+    padding-left: 24px;
+    position: relative;
+    color: white;
+  }
+input[type="checkbox"] + lable{
+  content: "";
+  height: 1.5em;width: 1.5em;
+  left: 0;
+  position: absolute;
+z-index: -999;
+}
+/*因为给lable标签加上了样式，把input标签的样式遮掉*/
+input[type="checkbox"]{
+  box-sizing: border-box;
+left: 4px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 3px;
+background-color: white;
+}
+input[type="checkbox"]:checked::after{
+  content: url(../images/check1.png);
+}
+input[type="checkbox"]:checked + label{
+  background-position: 0 4em;
+}
+
+.cin a{
+  color: white;
+}
+
+.butt{
+  margin-top: 4em;
+}
+button{
+color: #cc9a36; background-color: white;border: none;display: block;
+margin-bottom: 1em; font-size: 1.55em;width: 11.5em;height: 1.85em;letter-spacing: 0.5em;
+font-family: "微软雅黑";
+}
+.butt a{
+  color: white;display: block;position: absolute; right: 0;font-size: 0.7em;
+}
+.butt a span{
+  color: #c59537;font-size: 1.3em;
+}

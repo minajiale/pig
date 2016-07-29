@@ -1,0 +1,76 @@
+
+.list{
+  padding: 0.6em 0em;background-color: white;
+  border-bottom: 1px solid #d6d6d6;
+  margin: auto;text-align: center;
+}
+.list a{
+  font-size: 1.2em;
+padding: 0em 1.9em;
+}
+.on{
+  color: #cc9a36;
+}
+.border{
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+.hint{
+  background-image: url(../images/investmenthint.png);
+  background-size: 100% 100%;
+    margin: 0 auto; text-align: center;
+    padding: 0.4em;
+}
+.borrow{
+  font-size: 1em;
+}
+.hint span{
+  color: #cc9a36;
+  font-size: 1.8em;
+}
+.congratulate{
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+  font-size: 0.86em;
+  display: block;
+}
+.onepart{
+  padding: 0.5em;
+  border-bottom: 1px solid #d6d6d6;
+  margin: auto;
+}
+.onepart > p{
+  font-size:1.3em;
+  padding-top: 0.4em;
+}
+.state{
+  padding-top: 0.15em;
+    font-size: 1.3em;
+}
+.state p{
+  color: #cc9a36;
+  display: inline;
+
+}
+.principle{
+  font-size: 0.5em;color: #666565!important;
+  padding-right: 0.4em;
+}
+.state span{
+  color: #75b66a;
+  float: right;
+}
+.data{
+  font-size: 0.8em;
+  margin-top: 1em;margin-bottom: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+.data p{
+  display: inline;
+}
+
+button{
+  width: 10em;
+  margin:5em 4em;
+}
