@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册01</title>
+
+  <!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+
+ <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+ <link rel="stylesheet" href="./css/register.css">
+ <link rel="stylesheet" href="./css/base.css">
+
+</head>
+<body>
+<header><i class="fa fa-angle-left fa-2x"></i><h1>注册</h1></header>
+<div class="content">
+  <form action="">
+    <input type="text" name="textfield" value="请输入您的手机号码" onfocus="if(value =='请输入您的手机号码'){value=''}"  onblur="if(value==''){value='请输入您的手机号码'}"/>
+    <input name="textfield" type="text" value="请输入8至16位，数字加字母的密码" onfocus="if (value =='请输入8至16位，数字加字母的密码'){value =''}" onblur="if (value ==''){value='请输入8至16位，数字加字母的密码'}"/>
+    <input type="text" class="verifacation-code" name="textfiled" value="请输入短信验证码"               onfocus="if(value=='请输入短信验证码'){value=''}" onblur="if(value==''){value='请输入短信验证码'}"/>
+    <input type="button" value="获取验证码">
+  </form>
+  <a style="color:white;" href="register02.html"><button >下一步</button></a>
+</div>
+</body>
+
+<script src="./js/jquery-3.0.0.min.js"></script>
+<script src="./js/basic.js"></script>
+</html>
