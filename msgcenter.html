@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+  <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/yygbase.css">
+  <link rel="stylesheet" type="text/css" href="./css/yyg_desc.css">
+	<title>消息中心</title>
+
+<style type="text/css">
+	body{
+		background: #F5F4F4;
+	}
+	.head{
+		background: url("./images/head_02.jpg");
+	}
+	table{
+		margin-top: -0.35em;
+	}
+	table tr:nth-child(1){
+		font-size: 0.855em;
+		font-weight: 600;
+		color: #727171;
+	}
+	table tr:nth-child(3){
+		font-size: 0.75em;
+		color: #A4A4A4;
+		margin-left: -1.35em;
+	}
+	table img{
+		width: 25px;
+	}
+	table time{
+		font-size: 0.75em;
+		color: #A4A4A4;
+	}
+	#cate-content>div{
+		border-bottom: 1px solid #E9E8E8;
+		padding-bottom: 0.85em;
+	}
+	.cate-menu{
+		background: #fff;font-size: 1.185em;padding-top: 0.105em;padding-bottom: 0.105em;
+	}
+</style>
+</head>
+<body>
+	<div class="head">
+	  <header>
+	    <a onclick="window.history.back()">&nbsp;&nbsp;<i class="fa fa-angle-left fa-2x"></i></a>
+	   <h1 style="padding-left: 1.85em;">消息中心</h1>
+	   <a href="" style="color: #FAF6EF;float: right;">标记已读&nbsp;</a>
+	   </header>
+	 </div>
+	 <div class="cate-menu" style="">
+	 	<div class="item-active"><h2><a id="all-list">站内信息</a></h2></div>
+	 	<span></span>
+	 	<div><h2><a id="useable-list">最新活动</a></h2></div>
+	 	<span></span>
+	 	<div><h2><a id="disable-list">交易记录</a></h2></div>
+	</div>
+	<div id="cate-content" class="cate-content">
+		<div class="site_msg" alink="http://www.baidu.com">
+			<table>
+				<tr>
+					<td style="">
+					<img src="./images/msgcenter_02.png"></td>
+					<td>
+						<span style="">【推荐有奖】嗨翻六月,万元红包人人有份!</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="./images/msgcenter_05.png"></td>&nbsp;
+					<td>&nbsp;&nbsp;<time>2016-06-20 20:30:05</time></td>
+				</tr>
+				<tr>
+					<td>
+						<img src="./images/msgcenter_06.png">
+					</td>
+					<td>&nbsp;
+						老手推荐新手投资，新手不仅可以得到额外的现金红包8.88元……
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="site_msg" alink="#">
+			<table>
+				<tr>
+					<td style="">
+					<img src="./images/msgcenter_05.png"></td>
+					<td>
+						<span style="">【推荐有奖】嗨翻六月,万元红包人人有份!</span>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="./images/msgcenter_05.png"></td>&nbsp;
+					<td>&nbsp;&nbsp;<time>2016-06-20 20:30:05</time></td>
+				</tr>
+				<tr>
+					<td>
+						<img src="./images/msgcenter_06.png">
+					</td>
+					<td>&nbsp;
+						老手推荐新手投资，新手不仅可以得到额外的现金红包8.88元……
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div style="margin-top:2.15em;text-align: center;font-size: 0.75em;color: #A6A6A6;">
+		<label>暂无更多消息</label>
+	</div>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/basic.js"></script>
+<!-- <script type="text/javascript" src="./yyg_desc.js"></script> -->
+<script type="text/javascript">
+	$(function(){
+		$(document).ready(function() {
+			/**监听cate-content含有alink属性的部分，点击时跳转到alink指定的地址
+			 */
+			$("#cate-content").on("click","[alink]",function(){
+				//alert($(this).attr('alink'));
+				location.href = $(this).attr('alink');
+			});
+		});
+	})
+</script>
+</body>
+</html>

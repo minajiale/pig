@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<!-- Mobile Devices Support @begin -->
+  <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+  <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="pragma">
+  <meta content="0" http-equiv="expires">
+  <meta content="telephone=no, address=no" name="format-detection">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <!-- Mobile Devices Support @end -->
+  <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/yygbase.css">
+	<title>项目详情</title>
+	<link rel="stylesheet" type="text/css" href="./css/yyg_detail.css">
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+<div id="head" class="head" >
+	<header>
+	<a onclick="window.history.back()">&nbsp;&nbsp;<i class="fa fa-angle-left fa-2x"></i></a>
+	<h1><font style="font-size: 0.995em;">工程投标保证金【364标】</font></h1>
+	</header>
+</div>
+<div id="repay-info">
+	<div id="debt">
+		<span>借款金额 </span>
+		<span class="active-color">500,000.00元</span>
+	</div>
+	<div id="detail-info">
+		<table>
+			<tr>
+				<td>
+					<span>年化利率：</span>
+					<span>15%</span>
+				</td>
+				<td>
+					<span>还款方式：</span>
+					<span>按月付息到期还本</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>放款时间：</span>
+					<span style="font-size: 0.65em;">2016-06-23 14:45:36</span>
+				</td>
+				<td>
+					<span>借款期限：</span>
+					<span>1个月</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>还款时间</span>
+					<span style="font-size: 0.65em;">2016-07-23 15:36:21</span>
+				</td>
+				<td>
+					<span>一期还款金额：</span>
+					<span>50,750.00元</span>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="detail-body">
+	<form action="" method="POST">
+		<div class="pack" id="pack">
+			<span>可用余额:</span>
+			<span style="color: #D7A454;">10,254.21元</span>
+			<span style="float: right;color: #D7A454;"><a href="" style="color: #D7A454;">立即充值</a></span>
+		</div>
+		<div id="in" class="invest" style="">
+			<input id="in-sum" type="text" name="sum" placeholder="请输入还款金额" style="">
+			<span style="flex:1;"></span>
+			<input id="in-all" type="button" name="sub" value="全额还款" style="">
+		</div>
+		<div id="do-repay" class="do-repay">
+			<button type="submit"><img src="./images/repay_07.png">
+			</button>
+		</div>
+	</form>
+</div>
+
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/basic.js"></script>
+<script type="text/javascript" src="./js/yyg_detail.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#repay-info').height($('#repay-info').width()/2.6);
+	})
+</script>
+</body>
+</html>
