@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 重置样式 */
+body{font:14px "微软雅黑",tahoma,verdana,Arial; color:#686c6c;min-width: 1100px;}
+body,div,p,span,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,pre,form,tr,td,th,table{border:0px; padding:0px; margin:0px;}
+*{margin:0;padding:0;list-style-type:none;}
+img,a img{margin:0px; padding:0px; border:0px; font-size: 0px; line-height: 0px;}
+a,img{border:0;}
+h1,h2,h3,h4,h5,h6{font-size:14px; font-weight:normal;}
+ul,li,ol,dt,dl,dd{ list-style:none;}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+label,input,textarea,select,button{margin:0px; padding:0px; vertical-align:middle; font-family:"微软雅黑",tahoma,verdana,Arial;}
+input,button,select,img{line-height:normal;}
+input, button, select, textarea { outline: 0;}
+a{ color:#4c4d4d;text-decoration:none; outline: none; cursor:pointer;}
+a:hover{ text-decoration:none; }
+a:active{ outline: none; star:expression(this.onFocus=this.blur());}
+div{ overflow:hidden;}
+
+input[type=button]{ cursor:pointer;}
+
+.head{
+background-color: #e0e0e0;
+height: 36px;
+padding: 0 124.5px;color: #7c7c7c;
+font-size: 12px;
+line-height: 36px;
+}
+h1{
+  margin:0  auto;
+  border-bottom: 1px solid #ff771c;
+  width: 80px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: black;
+}
+h2{
+  margin: 0 auto;
+  width: 205px;
+  margin-bottom: 13px;
+  font-size: 17px;
+}
+.head span{
+  float: left;
+  margin-right: 20px;
+}
+.first{
+    width: 900px;padding:0 124.5px;
+    height: 76px;
+    line-height: 76px;
+    float: right;
+}
+.first li , .login li{
+  float: right;
+  margin-right: 15px;
+}
+.first img{
+
+margin-left: -200px;
+}
+.select{
+
+}
+.select ul{
+  padding: 0 124.5px;
+  background-color: #ff771c;
+  height: 38px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.select ul li a{
+    color: #ffffff;
+}
+
+
+.foot{
+  background-color: #eeeeee;
+text-align: center;
+}
+.one{
+  display: flex;
+  justify-content: space-around;
+}
+.foot ul{
+  display: flex;
+  justify-content: center;
+}
+.foot ul a{
+  margin: 0 10px;
+}
+.foot-img{
+  margin: auto;
+  width: 700px;
+}
