@@ -1,0 +1,60 @@
+.we{
+  padding: 0 200px;
+}
+.icon{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 200px;
+}
+.icon li{
+  width: 150px;
+}
+.icon img{
+  float: left;
+}
+.group{
+  padding: 0 100px;
+}
+.companey{
+  padding: 0 100px;
+}
+.people{
+padding: 0 100px;
+}
+.develope{
+  padding: 0 250px;
+}
+.process{
+  display: flex;
+  justify-content: center;
+}
+.develope a{
+  font-size: 20px;
+  margin-top: 80px;
+  color: #d7d7d7;
+}
+.develope img{
+  margin: 0 auto;
+}
+.touch{
+  padding: 0 100px;
+}
+.table div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.table  p{
+  margin: auto;
+}
+.road img{
+float: left;
+  margin-right: 20px;
+}
+.road p{
+  margin-top: 20px;
+}
+.road li{
+  line-height: 30px;
+
+}
