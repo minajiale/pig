@@ -1,28 +1,48 @@
 .we{
-  padding: 0 200px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.people,.companey,.develope,.touch{
+  width: 1100px;
+  margin: auto;
+}
+p{
+  line-height: 30px;
 }
 .icon{
+  width: 950px;
+  margin-top: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   padding: 0 200px;
+  margin-bottom: 50px;
 }
 .icon li{
-  width: 150px;
+  width: 200px;
 }
-.icon img{
-  float: left;
+.icon li p:nth-child(2){
+  color: #ff771c;
+  margin-top: -8px;
 }
-.group{
-  padding: 0 100px;
+.icon li p:nth-child(3){
+    margin-top: -4px;
+}
+.group-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.group h1{
+  margin-bottom: 50px;
+  width: 130px;
 }
 .companey{
-  padding: 0 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.people{
-padding: 0 100px;
-}
-.develope{
-  padding: 0 250px;
+.develope h1{
+  margin-bottom: 50px;
 }
 .process{
   display: flex;
@@ -34,10 +54,7 @@ padding: 0 100px;
   color: #d7d7d7;
 }
 .develope img{
-  margin: 0 auto;
-}
-.touch{
-  padding: 0 100px;
+  margin: 0 50px;
 }
 .table div{
   display: flex;
@@ -45,16 +62,26 @@ padding: 0 100px;
   align-items: center;
 }
 .table  p{
-  margin: auto;
+  width: 200px;
+  text-align: center;
+}
+.address{
+color: #ff771c;
+margin-bottom: 50px;
 }
 .road img{
 float: left;
-  margin-right: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 .road p{
   margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 .road li{
-  line-height: 30px;
-
+  line-height: 45px;
+}
+.road li span{
+  color: #f15a29;
 }

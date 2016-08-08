@@ -1,19 +1,35 @@
 .content{
-  padding: 0 124.5px;
+margin: auto;
+  width: 1100px;
+}
+.content h2{
+  margin: 0 auto;
+  width: 205px;
+  margin-bottom: 13px;
+  font-size: 17px;
 }
 .content p{
   line-height: 27px;
+  margin: 0 52px;
 }
 .content h1{
-  width: 100px;
+  width: 130px;
 }
+.child h1{
+  width: 160px;
+}
+.join-back{
 
+  background-color: #faf9f9;
+  margin-top: 60px;
+}
 .join{
-  margin: auto;
-  padding: 0 124.5px;
+    width: 1000px;
+      margin:0  auto;
 }
 .join img{
   margin-right: 15px;
+vertical-align:middle;
 }
 .join li:first-child{
     border-top: 1px dotted #d6d5d5;
@@ -21,6 +37,7 @@
 .join li{
   line-height: 40px;
   border-bottom: 1px dotted #d6d5d5;
+  height: 40px;
 }
 .join li span{
   float: right;
@@ -39,6 +56,10 @@
   /*margin-right: 0.5px;*/
   margin: 30px 0;
 }
+.page .on{
+  background-color: #ffa019;
+  color: white;
+}
 .new{
   background-image: url("../images/city.jpg");
   background-repeat: no-repeat;
@@ -49,9 +70,35 @@
   margin: 0 auto;
   border-radius: 20px;
   border: 1px solid #dadada;
-  width: 300px;
-  height: 60px;
+  width: 380px;
+  height: 70px;
   text-align: center;
-  line-height: 60px;
+  line-height: 70px;
   margin-top: 150px;
+  font-size: 20px;
+}
+
+.pre{
+border-top: 8px solid transparent ;
+border-left: 8px solid transparent;
+border-bottom: 8px solid transparent;
+border-right:8px solid #a4a2a2;
+float: left;
+margin-top: 7px;
+margin-right: 5px;
+}
+.next{
+  border-top: 8px solid transparent ;
+  border-left: 8px solid #a4a2a2;
+  border-bottom: 8px solid transparent;
+  border-right:8px solid transparent;
+  float: right;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.group-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
 }

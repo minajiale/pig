@@ -1,31 +1,74 @@
 .media{
-  padding: 0 190px;
+  width: 1100px;
+  margin: auto;
+  width: 1100px!important;
 }
 .media_head a{
 float: right;
-margin-top: -50px;
+margin-top: -60px;
+margin-right: 80px;
 }
 .media table{
-  width: 1000px;
   height: 150px;
+  width: 1100px;
+}
+.interview-width{
+  width: 1100px; margin: auto;
 }
 .interview h1{
-  width: 100px;
+  width: 150px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .interview img{
   width: 100%;
   height: 100%;
 }
-.job{
-  padding: 0 250px;
-  margin-bottom: 100px;
+.founder{
+position: relative;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../images/founder.jpg");
 }
-
+.founder-contain {
+  position: absolute;
+  top: 95px;
+  left: 650px;
+  width: 543px;
+}
+.founder h2{
+  font-size: 30px;
+}
+.founder p{
+  line-height: 25px;
+}
+.founder ol{
+  margin-top: 10px;
+}
+.founder ol li{
+  height: 30px;
+}
+.short-introduction{
+  font-size: 18px;
+  margin: 10px 0;
+}
+.founder a{
+  color: #ff771c;
+}
+.job{
+width: 1100px;
+margin: 0 auto;
+margin-bottom: 100px;
+}
 .job img{
 width: 400px;
 height: 250px;
 float: left;
-margin-right: 60px;
+padding-right: 60px;
+margin-left: 150px;
 }
 .job ol a{
   line-height: 40px;

@@ -22,9 +22,9 @@
     <li><img src="./images/dot.gif" alt="" /><a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
   </ul>
     <div class="page">
-      <a href="#">首页</a>
+      <a href="#"><div class="pre"></div>首页</a>
       <a href="#">上一页</a>
-      <a href="#">1</a>
+      <a href="#" class="on">1</a>
       <a href="#">2</a>
       <a href="#">3</a>
       <a href="#">4</a>
@@ -35,7 +35,7 @@
       <a href="#">9</a>
       <a href="#">........</a>
       <a href="#">下一页</a>
-      <a href="#">尾页</a>
+      <a href="#">尾页<div class="next"></div></a>
     </div>
 </div>
 <?php include 'footer.php'; ?>
