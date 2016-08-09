@@ -62,7 +62,10 @@
       <div class="media_head">
     <h1>行业报道</h1><a href="#">更多+</a></div>
       <div style="clear:both;"></div>
-      <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;---&#x65b0;&#x95fb;&#x8d44;&#x8baf;_35.jpg" width="166" height="56" alt="">
+      <div class="job-img">
+        <img src="images/about-new.jpg" width: 409px;height: 231px;alt="">
+        <div class="hint">政府工作报告两提互联网金融</div>
+      </div>
       <ol>
         <li><a href="">1.人民网：国务院发展研究中心调研组莅临小猪理财</a></li>
         <li><a href="">2.央视电视台：李克强再提银行降费：帮企业爬坡过坎</a></li>

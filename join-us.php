@@ -22,7 +22,7 @@
   <div class="child">
   <h1>分公司风采</h1>
   <div class="group-flex">
-  <a>  <img  class="prev" src="./images/prev.jpg" alt=""width="90" height="90" /></a>
+  <a id="prev">  <img  class="prev" src="./images/prev.jpg" alt=""width="90" height="90" /></a>
   <table>
     <tr>
       <td></td>
@@ -33,7 +33,7 @@
       <td></td>
     </tr>
   </table>
-  <a><img src="./images/next .jpg" alt="" /></a>
+  <a id="next"><img src="./images/next .jpg" alt="" /></a>
     </div>
 </div>
 
@@ -73,5 +73,8 @@
 </div>
 <?php include "footer.php" ?>
   </div>
+  <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+  <script type="text/javascript" src="js/switch.js"></script>
 </body>
+
 </html>

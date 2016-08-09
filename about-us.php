@@ -28,12 +28,13 @@
   <p>平台交易总额</p>
   </li>
   <li>
-    <img src="images/money.jpg" width="50" height="40" alt="">
+    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_06.jpg" width="50" height="40" alt="">
     <p>24501笔</p>
     <p>交易笔数</p>
   </li>
   <li>
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_06.jpg" width="50" height="40" alt="">
+      <img src="images/money.jpg" width="50" height="40" alt="">
+
     <p>2088.46万元</p>
     <p>为用户赚取收益</p>
   </li>
@@ -43,14 +44,15 @@
     <p>安全运营天数</p>
   </li>
 </ul>
+
+
 <div class="group">
   <h1>团队简介</h1>
   <div class="group-flex">
-    <a><img  class="prev" src="./images/prev.jpg" alt=""width="90" height="90" /></a>
+    <a id="prev"><img  class="prev" src="./images/prev.jpg" alt=""width="90" height="100" /></a>
   <table>
-    <tr>
+    <tr id="list">
       <!-- <td><canvas id="canvas" width="200" height="100" ></canvas> </td> -->
-    <td></td>
       <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_15.jpg" width="207" height="446" alt=""></td>
       <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_16.jpg" width="207" height="446" alt=""></td>
       <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_18.jpg" width="207" height="446" alt=""></td>
@@ -59,7 +61,7 @@
       <!-- <td><canvas id="myCanvas" width="200" height="100"></canvas></td> -->
     </tr>
   </table>
-<a><img src="./images/next .jpg" alt="" /></a>
+<a id="next"><img src="./images/next .jpg" alt="" /></a>
   </div>
 </div>
 <div class="companey">
@@ -121,6 +123,8 @@
     </ul>
 </div>
 <?php include 'footer.php'; ?>
-
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/switch.js"></script>
 </body>
+
 </html>

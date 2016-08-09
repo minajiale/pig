@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="./css/join-us.css">
 <body>
 <?php include 'head.php'; ?>
-<div class="join">
-  <ul>
+<div class="join" >
+  <ul style="margin-top:40px; font-size:16px;line-height:57px;">
     <li><img src="./images/dot.gif" alt="" />  <a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
     <li><img src="./images/dot.gif" alt="" /><a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
     <li><img src="./images/dot.gif" alt="" /><a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
@@ -21,7 +21,7 @@
     <li><img src="./images/dot.gif" alt="" /><a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
     <li><img src="./images/dot.gif" alt="" /><a href="">2016年7月11日 北京市西城区运营中心正式成立</a><span>2019-07-11</span></li>
   </ul>
-    <div class="page">
+    <div class="page" >
       <a href="#"><div class="pre"></div>首页</a>
       <a href="#">上一页</a>
       <a href="#" class="on">1</a>
