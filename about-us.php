@@ -23,23 +23,23 @@
 </div>
 <ul class="icon">
   <li>
-  <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_09.jpg" width="50" height="40" alt="">
+  <img src="images/about3.jpg" width="54" height="43" alt="">
   <p>11亿2325万元</p>
   <p>平台交易总额</p>
   </li>
   <li>
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_06.jpg" width="50" height="40" alt="">
+    <img src="images/about5.jpg" width="50" height="44" alt="">
     <p>24501笔</p>
     <p>交易笔数</p>
   </li>
   <li>
-      <img src="images/money.jpg" width="50" height="40" alt="">
+      <img src="images/about2.jpg" width="45" height="44" alt="">
 
     <p>2088.46万元</p>
     <p>为用户赚取收益</p>
   </li>
   <li>
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_03.jpg" width="50" height="40" alt="">
+    <img src="images/about1.jpg" width="50" height="49" alt="">
     <p>505天</p>
     <p>安全运营天数</p>
   </li>
@@ -49,15 +49,15 @@
 <div class="group">
   <h1>团队简介</h1>
   <div class="group-flex">
-    <a id="prev"><img  class="prev" src="./images/prev.jpg" alt=""width="90" height="100" /></a>
+    <a id="prev"><img  class="prev" src="./images/prev.jpg" alt=""width="94" height="95" /></a>
   <table>
     <tr id="list">
       <!-- <td><canvas id="canvas" width="200" height="100" ></canvas> </td> -->
-      <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_15.jpg" width="207" height="446" alt=""></td>
-      <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_16.jpg" width="207" height="446" alt=""></td>
-      <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_18.jpg" width="207" height="446" alt=""></td>
-      <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_20.jpg" width="207" height="446" alt=""></td>
-      <td>	<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_22.jpg" width="207" height="446" alt=""></td>
+      <td>	<img src="images/abtwe1.jpg" width="207" height="446" alt=""></td>
+      <td>	<img src="images/abtwe2.jpg" width="207" height="446" alt=""></td>
+      <td>	<img src="images/abtwe3.jpg" width="207" height="446" alt=""></td>
+      <td>	<img src="images/abtwe4.jpg" width="207" height="446" alt=""></td>
+      <td>	<img src="images/abtwe5.jpg" width="207" height="446" alt=""></td>
       <!-- <td><canvas id="myCanvas" width="200" height="100"></canvas></td> -->
     </tr>
   </table>
@@ -68,16 +68,16 @@
   <h1>企业资质</h1>
   <table>
     <tr>
-      <td><img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_30.jpg" width="253" height="188" alt=""></td>
-      <td><img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_32.jpg" width="253" height="188" alt=""></td>
-      <td><img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_34.jpg" width="253" height="188" alt=""></td>
-      <td><img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_37.jpg" width="253" height="188" alt=""></td>
+      <td><img src="images/card1.jpg" width="253" height="188" alt=""></td>
+      <td><img src="images/card2.jpg" width="253" height="188" alt=""></td>
+      <td><img src="images/card3.jpg" width="253" height="188" alt=""></td>
+      <td><img src="images/card4.jpg" width="253" height="188" alt=""></td>
     </tr>
   </table>
 </div>
 <div class="people">
   <h1>员工风采</h1>
-  			<img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_43.jpg" width="1096" height="498" alt="">
+  			<img src="images/people.jpg" width="1096" height="498" alt="">
 </div>
 <div class="develope">
   <h1>发展历程</h1>
@@ -91,11 +91,11 @@
   <h1>联系我们</h1>
   <div class="table">
     <div class="">
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_47.jpg" width="94" height="93" alt="">
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_49.jpg" width="94" height="93" alt="">
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_51.jpg" width="94" height="93" alt="">
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_53.jpg" width="94" height="93" alt="">
-    <img src="images/&#x5173;&#x4e8e;&#x6211;&#x4eec;_55.jpg" width="94" height="93" alt="">
+    <img src="images/icon1.jpg" width="100" height="89" alt="">
+    <img src="images/icon2.jpg" width="95" height="89" alt="">
+    <img src="images/icon4.jpg" width="99" height="89" alt="">
+    <img src="images/icon5.jpg" width="100" height="89" alt="">
+    <img src="images/icon6.jpg" width="100" height="89" alt="">
         </div>
     <div>
       <p>公司地址</p>

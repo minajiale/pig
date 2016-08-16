@@ -1,20 +1,28 @@
-.content{
+.join-content{
 margin: auto;
   width: 1100px;
 }
-.content h2{
+.join-content h2{
   margin: 0 auto;
   width: 205px;
   margin-bottom: 13px;
   font-size: 17px;
 }
-.content p{
-  line-height: 27px;
+.join-content p{
+  line-height: 30px;
   margin: 0 52px;
   font-size: 16px;
 }
-.content h1{
+.join-content h1{
   width: 130px;
+}
+.join-map{
+  background-image: url(../images/map.jpg);
+  /*width: 878;*/
+  height: 627;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .child h1{
   width: 160px;
@@ -28,6 +36,10 @@ margin: auto;
     width: 1000px;
       margin:0  auto;
 }
+.join h1{
+  margin-top: 20px!important;
+  margin-bottom: 33px!important;
+}
 .join img{
   margin-right: 15px;
 vertical-align:middle;
@@ -36,37 +48,44 @@ vertical-align:middle;
     border-top: 1px dotted #d6d5d5;
 }
 .join li{
-  line-height: 40px;
+  line-height: 55px;
   border-bottom: 1px dotted #d6d5d5;
-  height: 40px;
+  height: 55px;
   font-size: 16px;
 }
 .join li span{
   float: right;
 }
+.group-flex table{
+  width: 1100px;
+}
 .page{
   margin: auto;
-  width: 650px;
+  width: 700px;
 }
 .page a{
   display: inline-block;
   padding: 0 10px;
-  height: 30px;
-  line-height: 30px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
   background-color: #f3f0f0;
   /*margin-right: 0.5px;*/
-  margin: 30px 0;
+  margin: 33px 0;
 }
 .page .on{
   background-color: #ffa019;
   color: white;
 }
+.page .number{
+  width: 16px;
+}
 .new{
   background-image: url("../images/city.jpg");
   background-repeat: no-repeat;
   height:400px;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 .new div{
   margin: 0 auto;
@@ -86,7 +105,7 @@ border-left: 8px solid transparent;
 border-bottom: 8px solid transparent;
 border-right:8px solid #a4a2a2;
 float: left;
-margin-top: 7px;
+margin-top: 10px;
 margin-right: 5px;
 }
 .next{
@@ -95,10 +114,11 @@ margin-right: 5px;
   border-bottom: 8px solid transparent;
   border-right:8px solid transparent;
   float: right;
-  margin-top: 7px;
+  margin-top: 10px;
   margin-left: 5px;
 }
 .group-flex{
+  margin-top: -10px;
   display: flex;
   justify-content: space-around;
   align-items: center;

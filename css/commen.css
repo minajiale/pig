@@ -21,72 +21,100 @@ div{ overflow:hidden;}
 
 input[type=button]{ cursor:pointer;}
 
-.head{
-background-color: #e0e0e0;
-height: 36px;
-padding: 0 124.5px;color: #7c7c7c;
+.head-nana-bgc{
 font-size: 12px;
-line-height: 36px;
+background-color: #e0e0e0;
+height: 30px;
+color: #1f1f1f;
+line-height: 30px;
 }
+.head-width{
+  width: 1100px;
+  margin: auto;
+}
+.head-width span:nth-child(1){
+  padding-right: 23px;
+}
+.head-login{
+  float: right;
+}
+.head-login li{
+  float: right;
+  margin-left: 20px;
+}
+.head-about{
+  color: #ff771c;
+}
+.head-nav{
+  width: 1100px;
+  margin: auto;
+}
+.head-logo{
+  float: left;
+  background-image: url(../images/logo.jpg);
+  width: 354px;
+  height: 77px;
+  background-repeat: no-repeat;
+}
+.head-first li{
+  float: right;
+  margin-left: 60px;
+  height: 77px;
+  line-height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 .header-imga {
   background-image: url(../images/headimage.jpg);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  width:100%;
-  height: 303px;
+  height: 426px;
+}
+.head-select{
+font-size: 18px;
+font-family: "微软雅黑";
+  background-color: #ff771c;
+}
+.hed-select-center{
+  width: 1100px;
+  margin: auto;
+  padding: 0 190px;
+}
+.head-select ul li{
+  float: left;
+}
+.head-select ul li a{
+    color: #ffffff;
+    display: inline-block;
+    width: 141px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-right:  18px;
+}
+.join-on{
+ background-color: #e15c03;
 }
 h1{
   margin:0  auto;
   border-bottom: 1px solid #ff771c;
   width: 150px;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   text-align: center;
   font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 55px;
+  margin-top: 35px;
+  margin-bottom: 45px;
   font-weight: 500;
   color: black;
 }
-.about{
-  color: #ff771c;
-}
+
 .head span{
   float: left;
   margin-right: 20px;
 }
-.first{
-    width: 900px;padding:0 124.5px;
-    height: 76px;
-    line-height: 76px;
-    float: right;
-    font-size: 16px;
-}
-.first li{
-  margin: 0 20px;
-}
-.first li , .login li{
-  float: right;
-  margin-right: 15px;
-}
-.first img{
-margin-left: -200px;
-}
-.select{
-  color: #ffffff;
-font-size: 18px;
-font-family: "微软雅黑";
-}
-.select ul{
-  padding: 0 124.5px;
-  background-color: #ff771c;
-  height: 38px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.select ul li a{
-    color: #ffffff;
-}
+
+
 
 .foot{
   background-color: #eeeeee;

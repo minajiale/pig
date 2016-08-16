@@ -1,13 +1,14 @@
 .we{
-  width: 1100px;
+  width: 1000px;
   margin: 0 auto;
 }
 .people,.companey,.develope,.touch{
   width: 1100px;
   margin: auto;
 }
-p{
+.we p{
   line-height: 30px;
+  font-size: 16px;
 }
 .icon{
   width: 950px;
@@ -16,13 +17,20 @@ p{
   justify-content:space-between;
   padding: 0 200px;
   margin-bottom: 50px;
+  font-size: 18px;
+}
+.icon img{
+  float: left; margin-right: 20px;
 }
 .icon li{
   width: 200px;
 }
+.icon p{
+  line-height: 35px;
+}
 .icon li p:nth-child(2){
   color: #ff771c;
-  margin-top: -8px;
+  margin-top: -14px;
 }
 .icon li p:nth-child(3){
     margin-top: -4px;
@@ -41,6 +49,9 @@ p{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.companey table{
+  width: 1100px;
+}
 .develope h1{
   margin-bottom: 50px;
 }
@@ -56,22 +67,26 @@ p{
 .develope img{
   margin: 0 50px;
 }
+.touch{
+  font-size: 16px;
+}
 .table div{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .table  p{
-  width: 200px;
+  width: 220px;
   text-align: center;
 }
 .address{
 color: #ff771c;
 margin-bottom: 50px;
+font-size: 14px;
 }
 .road img{
 float: left;
-  margin-right: 50px;
+  margin-right: 30px;
   margin-bottom: 50px;
 }
 .road p{
@@ -80,7 +95,7 @@ float: left;
   margin-bottom: 15px;
 }
 .road li{
-  line-height: 45px;
+  line-height: 50px;
 }
 .road li span{
   color: #f15a29;
