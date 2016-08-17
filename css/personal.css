@@ -1,0 +1,205 @@
+body{
+  background-color: #fafafa;
+}
+.per-backg{
+background-image: url(../images/perback.png);
+background-size: 100%;
+height: 15em;
+background-repeat: no-repeat;
+color: white;
+}
+.per-set{
+  width: 1.7em;
+  height: 1.7em;
+  float: left;
+  margin: 0.8em;
+}
+.per-register-sur{
+  float: right;
+  margin: 0.8em;
+  display: flex;
+  justify-content: space-between;
+}
+.per-Visible{
+  width: 1.8em;
+  height: 0.9em;
+  margin-right: 0.6em;
+}
+.per-head-center{
+  text-align: center;
+}
+.per-headimg{
+  width:6.3em;
+  height:6.3em;
+  margin: 0 auto;
+  padding-top: 2.2em;
+  }
+  .per-name{
+    font-size: 0.8em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+  }
+  .per-income{
+    font-size: 2.6em;
+  }
+.per-estimate{
+  font-size: 0.8em;
+}
+/*累计收益那一块*/
+.per-header{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../images/pernav.png);
+  background-repeat: no-repeat;
+  height: 3.2em;
+  background-size: 100% 100%;
+  margin-top: -2em;
+  font-size: 0.9em;
+  padding: 0.3em;
+}
+.per-header div p:first-child{
+  font-size:1.2em;
+}
+.per-headleft{
+  width: 9em;
+}
+.per-header-bor{
+  height: 2em;
+  border-right: 1px solid white;
+  text-align: center;
+}
+.per-headright{
+  margin-left: 2.6em;
+}
+/*充值那一块*/
+.per-header-nav{
+  background-color: white;
+  border-bottom: 1px solid #d7d7d7;
+  padding:0.6em;
+}
+.per-header-nav a{
+  color: #cc9a36;
+  display: inline-block;
+  width: 5.9em;
+  text-align: center;
+font-size: 1.2em;
+}
+.per-header-nav a:nth-child(1), .per-header-nav a:nth-child(2){
+  border-right: 1px solid #cfcfcf;
+}
+/*投标项目那一块*/
+.per-mypro{
+background-color: white;
+margin-top: 0.3em ;
+padding: 0 1.6em;
+border-bottom: 1px solid #e0e0e0;
+}
+.per-mypro h2{
+  font-size: 0.85em;
+  padding-top: 0.5em;
+}
+.per-mypro-flex{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+    padding: 0 2.3em;
+  padding-top: 0.3em;
+  padding-bottom: 1em;
+  font-size: 0.8em;
+}
+.per-mypro-flex >div p:first-child {
+  color: #cc9a36;
+}
+.per-mypro-flex >div p:last-child{
+  color:#676767;
+}
+
+/*优惠券到信息中心那一块*/
+.per-main-img1{
+  width: 1.7em;
+  height: 0.95em;
+  margin: auto;
+}
+.per-main-img2{
+width:1.2em;
+height: 1.4em;
+margin: auto;
+}
+.per-main-img3{
+  width:1.6em;
+  height: 1em;
+  margin: auto;
+}
+.per-main-img4{
+  width:1.4em;
+  height: 1.3em;
+  margin: auto;
+}
+.per-main-img5{
+  width:1.4em;
+  height: 1.1em;
+  margin: auto;
+}
+.per-main-img-new{
+  width: 2.3em;
+  height: 1em;
+  margin: auto;
+}
+.per-main-img-dot{
+  width:0.6em ;
+  height:0.6em ;
+  margin: auto;
+  line-height: 0.6em;
+}
+.per-main-sur{
+  width: 1.9em;
+}
+.per-mian div i{
+  color: #cccccc!important;
+  margin-left: 0.5em;
+}
+.per-mian>div{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5em;
+  align-items: center;
+  height: 3.4em;
+  border-bottom: 1px solid #e0e0e0;
+}
+.per-mian>div >div{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+/*客服电话那一块*/
+.phone{
+  text-align: center;
+  height:3.1em;
+  line-height:3.1em;
+  font-size: 0.84em;
+}
+.phone span{
+  color: #cc9a36;
+}
+/*底部导航*/
+.per-footer{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #e0e0e0;
+}
+.per-footer div{
+  position: relative;
+}
+.per-footer .per-main-img-dot{
+  position: absolute;
+  top: 1em;
+  left: 2.6em;
+}
+.per-footer-icon{
+  width: 4.2em;
+  height: 4em;
+}
